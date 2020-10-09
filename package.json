@@ -1,0 +1,15 @@
+{
+  "name": "mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mock": "./node_modules/.bin/nodemon ./src/server.js"
+  },
+  "author": "Gabriel Quispe",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.14.0",
+    "nodemon": "^2.0.2"
+  }
+}
